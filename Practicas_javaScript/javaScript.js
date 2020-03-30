@@ -1,8 +1,12 @@
-var aux =0;
-var i;
+function numerosPares(numero) {
 
-for (i=0;aux<100;i++){
-    aux=aux+2;
-    console.log (aux)
+    var aux = 2
+    var i
+       
+    for (i=0;i<numero;i++){
+        console.log (aux)
+        aux = aux + 2
+    }
+   return ("");
 }
-
+console.log (numerosPares(50))
